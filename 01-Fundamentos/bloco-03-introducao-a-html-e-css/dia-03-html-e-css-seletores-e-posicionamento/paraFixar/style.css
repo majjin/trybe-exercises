@@ -2,6 +2,19 @@
     font-weight: bold;
     text-decoration: underline;
 }
-.info {
-    background-color: aqua;
+
+.info, .info-ocean {
+    background: rgb(219, 235, 255);
 }
+
+.info-ocean {
+    width: 70%;
+    height: 200px;
+    overflow: auto;
+
+}
+
+.pic {
+    width: 70%;
+}
+
