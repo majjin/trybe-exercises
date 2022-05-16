@@ -18,3 +18,24 @@
     width: 70%;
 }
 
+body {
+    font-family: cursive;
+}
+.photo-gallery {
+    align-items: center;
+    background: rgb(162, 163, 163);
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.photo {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(228, 225, 203);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 3%;
+    
+}
